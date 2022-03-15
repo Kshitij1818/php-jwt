@@ -27,7 +27,7 @@ class JwtHandler
         $this->token = array(
             "iss" => $iss,
             "aud" => $iss,
-            "iat" => $this->issuedAt;
+            "iat" => $this->issuedAt,
             "exp" => $this->expire,
             "data" => $data
         );
